@@ -1,0 +1,25 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Andale Mono, monospace;
+}
+
+header{
+	text-align: center;
+	font-variant: small-caps;
+	
+}
+
+.navigation, .guitar, .bass, .piano{
+	border-top: thin solid #bda911;
+	border-bottom: thin solid #bda911;
+	
+}
+
+.navigation > nav > ul > li{
+	color: #bda911
+}
+
+.guitar, .bass, .piano{
+	display: inline-block;
+}
